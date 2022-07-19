@@ -1,0 +1,23 @@
+body {
+    font-family:'Bebas Neue', Courier, monospace;
+    height: 100vh;
+    background-size: cover;
+    background: url("92753.jpg") no-repeat top center;
+  }
+  .count-down {
+    display: flex;
+    justify-content: center;
+    gap: 20 px;
+  }
+  .count-down > div {
+    display: flex;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 150px;
+    height: 200px;
+    background-color: rgba(245, 220, 220, 0.904);
+    margin-top: 250px;
+    border-radius: 50px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
